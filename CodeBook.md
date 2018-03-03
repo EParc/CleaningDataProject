@@ -7,7 +7,7 @@ output: html_document
 
 ## Data Files
 
-The file `tidy_data.csv` includes the final data set.  The file `run_analysis.R` takes the original data set and creates the tidy data set
+The file `tidydata.txt` includes the final data set.  The file `run_analysis.R` takes the original data set and creates the tidy data set
 
 ## Data File contents
 
@@ -66,5 +66,5 @@ A number of transformations were needed to convert the original data set (see `R
 
 6. Merge all six data files from step 2 into a single data set `all_data`
 
-7. Aggregate data by averaging all measurement variable by subject and activity, and save resulting data file as `tidy_data.csv`
+7. Aggregate data by averaging all measurement variable by subject and activity, and save resulting data file as `tidydata.txt`
 

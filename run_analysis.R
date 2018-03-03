@@ -38,4 +38,4 @@ all_data <- rbind(test_data,train_data)
 
 ## Create second, tidy data set with average of each variable for each activity and subject
 tidy_data <- aggregate(data=all_data,FUN=mean,. ~subject + activity)
-write_csv(tidy_data,"tidydata.csv")
+write.table(tidy_data,"Coursera/Data-Cleaning/CourseProject/Final_data/tidydata.txt",row.name=FALSE)

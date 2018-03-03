@@ -21,7 +21,7 @@ This repository includes the following files:
 
 - 'Readme.md': File that describes the contents of this repository
 
-- 'tidy_data.csv': Tidy data set of modified data
+- 'tidydata.txt': Tidy data set of modified data
 
 - 'CodeBook.md': Codebook explaining how data was compiled
 
